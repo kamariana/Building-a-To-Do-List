@@ -1,0 +1,39 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.todos {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 16px;
+}
+
+    .todos__title {
+        margin-top: 0;
+    }
+
+    .todos__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .todos__list > li {
+        padding: 16px;
+    }
+
+    .todos__new {
+        margin-top: 24px;
+    }
+
+    .todos__cta {
+
+    }
+
+    .todos__input {
+        
+    }
